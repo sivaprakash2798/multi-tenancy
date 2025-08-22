@@ -12,10 +12,6 @@ public class ApiResponse {
     private int status;
     private String message;
     private Object data;
-    private Long totalRecordCount;
-    private Integer totalPageCount;
-    private Boolean hasNext;
-    private Boolean hasPrevious;
 
     public ApiResponse(int status, String message, Object data){
         this.status=status;
